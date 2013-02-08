@@ -1,0 +1,29 @@
+{
+  "name": "singlefile",
+  "version": "0.0.0",
+  "description": "Ensures that your async function runs to completion before it is executed again",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --compilers coffee:coffee-script --require test/common"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supershabam/singlefile"
+  },
+  "keywords": [
+    "async",
+    "single"
+  ],
+  "author": "Ian Hansen",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "35c5730f34649864178935d52b06e82d5d1e56aa",
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "mocha": "~1.8.1",
+    "coffee-script": "~1.4.0"
+  }
+}
